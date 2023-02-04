@@ -244,6 +244,7 @@ button {
 }
 .sec-team {
   padding-top: 120px;
+  padding-bottom: 120px;
   background: var(--light-color);
 }
 .sec-item-band {
@@ -263,7 +264,7 @@ button {
 }
 .sec-team-list {
   display: flex;
-  padding-bottom: 120px;
+
   gap: 24px;
 }
 .sec-team-item {
