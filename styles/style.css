@@ -47,6 +47,7 @@ button {
   cursor: pointer;
 }
 .container {
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -56,7 +57,7 @@ button {
   align-items: center;
 }
 .text-raleway {
-  font-family: "Ralaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 .logo-foote {
@@ -68,6 +69,7 @@ button {
 .text-roboto {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  font-style: normal;
 }
 .header {
   padding-top: 24px;
@@ -92,7 +94,7 @@ button {
 .header-nav-list {
   display: flex;
   gap: 40px;
-  padding-left: 76px;
+  margin-left: 76px;
 }
 .header-nav-links {
   font-weight: 500;
@@ -137,6 +139,7 @@ button {
 .hero-text {
   display: flex;
   align-items: center;
+  margin: auto;
   max-width: 500px;
   height: 120px;
 }
@@ -161,7 +164,7 @@ button {
 .hero-button {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 48px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -237,8 +240,10 @@ button {
   gap: 24px;
 }
 .picture-icon-item {
+  border: 1px solid #e7e9fc;
 }
 .sec-team {
+  padding-top: 120px;
   background: var(--light-color);
 }
 .sec-item-band {
@@ -253,8 +258,7 @@ button {
   color: var(--dark-color);
 }
 .sec-team-subtitle {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
 }
 .sec-team-list {
@@ -264,6 +268,9 @@ button {
 }
 .sec-team-item {
   background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .sec-team-item-subtitle {
   font-weight: 500;
@@ -271,6 +278,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .sec-team-item-text {
   font-weight: 400;
@@ -282,7 +290,8 @@ button {
 }
 .page-two-footer {
   background: var(--dark-color);
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .page-two-logo {
   font-weight: 800;
@@ -296,7 +305,6 @@ button {
 .page-two-text {
   margin-top: 16px;
   width: 264px;
-  height: 72px;
 }
 .page-two-text {
   font-weight: 400;
@@ -354,13 +362,14 @@ button {
 }
 .main-sec-prt {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .main-buttons {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
-  padding-top: 96px;
+  margin-bottom: 72px;
+
   gap: 24px;
 }
 .btn {
@@ -403,9 +412,9 @@ button {
   padding-bottom: 32px;
   padding-left: 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
-.gallery-item {
-}
+
 .main-prt-subtitle {
   font-family: inherit;
   font-weight: 500;
